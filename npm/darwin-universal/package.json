@@ -1,0 +1,15 @@
+{
+  "name": "mdt-kit-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "mdt-kit.darwin-universal.node",
+  "files": [
+    "mdt-kit.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
