@@ -5,3 +5,4 @@
 
 export declare function capitalize(s: string): string
 export declare function titleCase(str: string): string
+export declare function camel(input: string): string

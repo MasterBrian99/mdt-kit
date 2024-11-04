@@ -20,3 +20,14 @@ test('title_case', t => {
   t.is(_.titleCase('123'), '123')
   t.is(_.titleCase('HeLlO WoRlD'), 'Hello World')
 })
+
+test('camel', t => {
+  t.is(_.camel('hello'), 'hello')
+  t.is(_.camel('hello-world'), 'helloWorld')
+  t.is(_.camel('hello_world'), 'helloWorld')
+  t.is(_.camel('hello.world'), 'helloWorld')
+  t.is(_.camel('hello world'), 'helloWorld')
+  t.is(_.camel(''), '')
+  t.is(_.camel('123'), '123')
+  t.is(_.camel('HeLlO WoRlD'), 'helloWorld')
+})

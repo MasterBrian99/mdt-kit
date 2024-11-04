@@ -310,7 +310,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { capitalize, titleCase } = nativeBinding
+const { capitalize, titleCase, camel } = nativeBinding
 
 module.exports.capitalize = capitalize
 module.exports.titleCase = titleCase
+module.exports.camel = camel
