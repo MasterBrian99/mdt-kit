@@ -9,8 +9,8 @@ permissions:
 'on':
   push:
     branches:
-#      - main
-      - dev-1
+      - main
+#      - dev-1
     tags-ignore:
       - '**'
     paths-ignore:
